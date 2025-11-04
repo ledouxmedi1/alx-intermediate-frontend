@@ -1,0 +1,22 @@
+# -------------------------------------------------
+# SASS installation steps (Windows - Node 20.18.0)
+# -------------------------------------------------
+# Note: Course specifies v3.7.4, but that version doesn't exist for 'sass' package.
+# Using latest stable 'sass' (Dart Sass) which is fully compatible and recommended.
+# Old 'node-sass' had v3.x, but it's deprecated.
+
+# 1. Download and install Node.js v20.18.0 (or v20.16.0 if preferred)
+#    URL: https://nodejs.org/dist/v20.18.0/node-v20.18.0-x64.msi
+#    Run the .msi installer (default settings)
+
+# 2. Restart terminal / VS Code
+
+# 3. Verify Node
+node --version    # Expected: v20.18.0 (or v20.16.0)
+npm --version     # Expected: 10.8.x
+
+# 4. Install SASS globally (latest stable)
+npm install -g sass
+
+# 5. Verify SASS
+sass --version    # Expected: 1.93.3 (or latest stable)
